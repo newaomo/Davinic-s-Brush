@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#d3171617"
+        android:layout_height="200px">
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="35px"
+            android:textColor="#f60025"
+            android:text="＜上一步"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:layout_marginLeft="53px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:paddingTop="50px"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="请选择您要使用的"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:text=" 图片素材"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#f60025"
+                    android:textSize="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/news_add_picture"
+        android:layout_marginTop="150px"
+        android:layout_marginLeft="450px"
+        android:layout_width="300px"
+        android:layout_height="225px"
+        android:src="@drawable/select_picture_add"
+        />
+
+    <View
+        android:layout_marginTop="150px"
+        android:background="#f60025"
+        android:layout_width="match_parent"
+        android:layout_height="7px"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+        <include layout="@layout/content_main" />
+    </ScrollView>
+
+
+    <View
+        android:layout_marginTop="15px"
+        android:background="#f60025"
+        android:layout_width="match_parent"
+        android:layout_height="7px"/>
+
+    <Button
+        android:layout_marginTop="180px"
+        android:gravity="center"
+        android:id="@+id/button_news_next3"
+        android:layout_gravity="center"
+        android:text="下 一 步"
+        android:background="@drawable/button_select_size_edit"
+        android:textSize="60px"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20px"
+        android:layout_width="600px"
+        android:layout_height="120px" />
+
+
+    <LinearLayout
+        android:layout_marginTop="100px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/news_textview_last3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="40px"
+            android:textSize="60px"
+            android:textColor="#f60025"
+            android:text="＜上一步"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/news_textview_skip3"
+            android:layout_marginLeft="700px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="60px"
+            android:textColor="#f60025"
+            android:text="跳过＞"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

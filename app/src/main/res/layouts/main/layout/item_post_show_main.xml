@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F0F0F0"
+    >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_margin="15px"
+        android:id="@+id/show_post_main_image"
+        android:layout_width="match_parent"
+        android:layout_height="675.6px" />
+
+</LinearLayout>

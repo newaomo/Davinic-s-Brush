@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:typer="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="40px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150px">
+
+        <ImageView
+            android:layout_marginLeft="70px"
+            android:layout_gravity="center_vertical"
+            android:layout_width="77px"
+            android:layout_height="100px"
+            android:src="@drawable/select_size_tip2"
+            />
+
+        <FrameLayout
+            android:layout_marginLeft="53px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="800px"
+                android:layout_height="150px"
+                android:src="@drawable/select_style_tip"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginTop="50px"
+        android:layout_gravity="center"
+        android:layout_width="800px"
+        android:layout_height="600px"
+        android:src="@drawable/select_style_introduce"
+        />
+
+
+    <View
+        android:background="#7ddfdcdc"
+        android:layout_width="match_parent"
+        android:layout_height="10px"/>
+
+    <LinearLayout
+        android:layout_marginTop="98px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_marginLeft="15px"
+            android:background="#f33030"
+            android:layout_width="10px"
+            android:layout_height="71px"/>
+
+        <TextView
+            android:layout_marginLeft="25px"
+            android:layout_gravity="center"
+            android:textColor="#f33030"
+            android:textSize="50px"
+            android:text="选 择 风 格"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+        <include layout="@layout/content_main_custom_article" />
+    </ScrollView>
+
+    <View
+        android:background="#7ddfdcdc"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="40px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/daily_textview_last6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="60px"
+            android:textSize="45px"
+            android:textColor="#f60025"
+            android:text="＜上一步"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+
+        <Button
+            android:id="@+id/daily_button_article_next6"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="生 成"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_select_size_edit"
+            android:textSize="60px"
+            android:layout_marginLeft="60px"
+            android:layout_width="600px"
+            android:layout_height="150px"  />
+
+
+    </LinearLayout>
+
+</LinearLayout>

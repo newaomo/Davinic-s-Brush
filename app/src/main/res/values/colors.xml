@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#689F38</color>
+    <!--<color name="colorAccent">#FF5252</color>-->
+    <!--<color name="colorAccent">#98eb52ff</color>-->
+    <color name="colorAccent">#F60025</color>
+    #F60025是之前的红色
+
+
+    <color name="tab_text_unselected">#828990</color>
+
+    <color name="app_main_color">#3F51B5</color>
+    <color name="app_main_color_deep">#303F9F</color>
+
+    <color name="gray_light">#f4f4f4</color>
+
+    <color name="progress_end">#87CEEB</color>
+    <color name="progress_start">#87CEEB</color>
+    <color name="yellow_light">#f2eec2</color>
+    <color name="red">#f45a5a</color>
+    <color name="gray_black">#777575</color>
+
+    <!--聊天文字的颜色-->
+    <color name="font_black_gray">#000</color>
+
+    <color name="deep_orange">#FF6600</color>
+    <color name="deep_gray">#bfbfbf</color>
+    <color name="purple">#e16bc7</color>
+
+
+    <color name="half_transparent_black">#7a000000</color>
+
+    <style name="CustomNoActionBarTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/CustomNoActionBarTheme.drawerArrowStyle</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--设置导航箭头的样式-->
+    <style name="CustomNoActionBarTheme.drawerArrowStyle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="android:color">@color/colorPrimary</item>
+    </style>
+
+    <!--登录注册合二为一-->
+    <color name="colorPrimaryTrans">#8ee74149</color>
+    <color name="colorAccentTrans">#00050503</color>
+    <color name="colorBlackTrans">#a2000000</color>
+
+
+    <color name="bg_main_normal">#d86161</color>
+    <color name="textcolor_main_normal">#ff0000</color>
+    <color name="bg_main_dark">#000000</color>
+    <color name="textcolor_main_dark">#ffffff</color>
+    <color name="bg_second_normal">#0000ff</color>
+    <color name="textcolor_second_normal">#00ff00</color>
+    <color name="bg_second_dark">#ffffff</color>
+    <color name="textcolor_second_dark">#000000</color>
+
+    //分步骤完成
+
+    <color name="stpi_default_circle_color">#b3bdc2</color>
+    <color name="stpi_default_primary_color">#00b47c</color>
+    <color name="stpi_default_line_color">#b3bdc2</color>
+    <color name="stpi_default_text_color">#000</color>
+    <!-- Demo colors -->
+    <color name="turquoise_medium">#FF4ECDC4</color>
+    <color name="golden_tainoi">#FFFFBD55</color>
+    <color name="crusta">#FFFB8A61</color>
+    <color name="blue">#FF20A7C7</color>
+
+    <color name="bg_teal">#009688</color>
+    //文件选择
+    <color name="vw_BgToolBar">#373B3E</color>
+    <color name="vw_BgRv">#191919</color>
+    <color name="vw_BgItem">#353535</color>
+
+    <color name="vw_ShadowItem">#94333232</color>
+
+    <color name="vw_BgRvFileDivider">#EEEEEE</color>
+
+    //二维码活动
+    <color name="actionbar_opacity">#33000000</color>
+    <!--<color name="color_grey">#E1E1E1</color>-->
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#E040FB</color>
+
+    <!--<color name="icons">#FFFFFF</color>-->
+    <color name="divider">#B6B6B6</color>
+
+
+
+    <!--引导页-->
+    <color name="solid_one">#60DBF6</color>
+    <color name="solid_two">#A3F0C1</color>
+    <color name="solid_three">#fcc885</color>
+
+
+    <color name="guide_bg1">#b4dcef</color>
+    <color name="guide_bg2">#f4edf2 </color>
+    <color name="guide_bg3">#fdf2bf </color>
+
+    <!--<color name="transparent">#c9ffffff</color>-->
+
+    <color name="ac_background">#f6f5f5</color>
+    <color name="ac_bottom_bar">#3c3c3c</color>
+    <color name="ac_bg_side_nav_actions">#252932</color>
+    <color name="text_navigation_title">#ffffff</color>
+    <color name="bg_comment_list_item">#f6f5f5</color>
+    <color name="bg_comment_list_item_highlight">#ffffff</color>
+    <color name="text_gray">#969696</color>
+    <color name="bg_exhibition_desc">#f3f2ed</color>
+    <color name="guide_color">#898989</color>
+
+    <!-- V2.0 -->
+    <color name="base_actionbar_bg">#eb4e3d</color>
+    <color name="base_action_bar_title_color">#ffffff</color>
+    <color name="base_tab_indicator_text_color">#f82c22</color>
+    <color name="base_menu_left_bg">#393c44</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="base_color_text_gray">#898989</color>
+    <color name="home_item_color_bg">#f4f6f6</color>
+    <color name="green">#5cbe6c</color>
+    <!-- zxing -->
+    <color name="result_view">#b0000000</color>
+    <color name="color_half_transparent">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="color_transparent_bg">#80000000</color>
+    <color name="color_transparent_bg1">#e0000000</color>
+    <!-- emot -->
+    <color name="msg_emote_divider">#ffa1a1a1</color>
+    <!-- trend -->
+    <color name="trend_bottom_bg">#f7f7f7</color>
+    <color name="base_color_text_blue">#ffd540</color>
+    <color name="base_color_bg">#f4f6f6</color>
+    <color name="base_color_text_grey">#ff777777</color>
+    <color name="chat_bottom_divider">#ffa1a1a1</color>
+    <color name="base_color_bg_gray">#e3e3e3</color>
+    <color name="theme_body">#cc22292c</color>
+    <color name="comment_text_default_bg_color">#787575</color>
+    <color name="comment_text_click_default_bg_color">#ffffff</color>
+    <color name="gray">#cccccc</color>
+    <color name="comment_text_color">#232323</color>
+    <color name="liker_default_bg_color">#333333</color>
+    <color name="liker_click_default_bg_color">#cccccc</color>
+    <color name="default_image_bg_color">#abb1b6</color>
+    <color name="transparent_black_85">#DA000000</color>
+    <color name="chat_bg">#ECF1F5</color>
+    <color name="divider_line_default_color">#d9d9d9</color>
+    <color name="net_work_bg_color">#ee4b62</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="half_black">#808080</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="comment_item_pressed">#979595</color>
+    <color name="photo_display_bg">#000000</color>
+    <color name="line_color_blue">#3C8EAE</color>
+    <color name="bg_color_pink">#FF90A2</color>
+    <color name="bg_color_blue">#43D5FF</color>
+    <color name="bg_color_blue_light">#84B5CA</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="color_theme">#489cfa</color>
+    <color name="color_emote_divder">#ffa1a1a1</color>
+    <color name="color_bottom_bg">#272a2e</color>
+    <color name="color_bottom_text_normal">#9da0a4</color>
+    <color name="color_bottom_text_press">#4f9ef6</color>
+    <color name="msg_chat_bg">#eceff4</color>
+    <color name="theme_bg_color">#f0f2f5</color>
+    <color name="c_f98800">#ed4e23</color>
+    <color name="dialog_color_title">#f82c22</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="color_99">#999999</color>
+    <color name="color_line">#dadada</color>
+    <color name="color_chat_send_status">#818181</color>
+    <color name="color_msg_system_time_bg">#20000000</color>
+    <color name="color_1e1e1e">#1e1e1e</color>
+    <color name="color_b4">#b4b4b4</color>
+
+
+
+
+
+
+
+    <color name="list_item_secondary_color">#888888</color>
+    <color name="list_item_primary_color">#000</color>
+    <color name="holo_black">#ff111111</color>
+
+
+    <!--设置开黑-->
+    <color name="save_btn_normal">#448AFF</color>
+    <color name="save_btn_press">#2962FF</color>
+    <color name="light_gray">#CFD8DC</color>
+
+
+
+
+    <color name="def_window">#f5f5f9</color>
+    <color name="def_normal">#383838</color>
+    <color name="def_btn_pressed">#3179cb</color>
+    <color name="def_btn_enable_false">#dedfe0</color>
+    <color name="def_btn_red">#FF5E5E</color>
+
+
+
+
+
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#00acff</color>
+    <color name="btn_login_pressed">#46678d</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#ffffff</color>
+    <color name="btn_register_pressed">#00acff</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#d4d4d4</color>
+    <color name="top_bar_normal_bg">#ffd540</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+    <color name="btn_answer_pressed">#4ebcd3</color>
+    <color name="btn_answer_normal">#2dafa3</color>
+    <color name="list_itease_secondary_color">#888888</color>
+    <color name="list_itease_primary_color">#000</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="emojicon_tab_selected">#D9D9D9</color>
+    <color name="emojicon_tab_nomal">#ffffff</color>
+    <color name="recall_black">#61212121</color>
+    <color name="recall_black_38">#89ffffff</color>
+    <color name="recall_white_54">#89ffffff</color>
+
+
+    <color name="night_mask">#00000000</color>
+    <!--transparent-->
+    <color name="container_background">#EBEBEB</color>
+    <color name="item_background">#FAFAFA</color>
+
+    <color name="primary_text_white">#deffffff</color>
+    <!--87%white-->
+    <color name="primary_text">#de000000</color>
+    <!--87%black-->
+    <color name="secondary_text">#8a000000</color>
+    <!--54%black-->
+    <color name="tertiary_text">#8a000000</color>
+    <!--54%black-->
+    <color name="image_place_holder">#DFDFDF</color>
+    <color name="image_place_holder_night">#272B2F</color>
+    <!--87%white-->
+    <color name="progress_bar_unfinished">#D4D4D4</color>
+
+    <color name="alpha_05_white">#0DFFFFFF</color>
+    <color name="alpha_10_white">#1AFFFFFF</color>
+    <color name="alpha_15_white">#26FFFFFF</color>
+    <color name="alpha_20_white">#33FFFFFF</color>
+    <color name="alpha_25_white">#40FFFFFF</color>
+    <color name="alpha_30_white">#4DFFFFFF</color>
+    <color name="alpha_35_white">#59FFFFFF</color>
+    <color name="alpha_40_white">#66FFFFFF</color>
+    <color name="alpha_45_white">#73FFFFFF</color>
+    <color name="alpha_50_white">#80FFFFFF</color>
+    <color name="alpha_55_white">#8CFFFFFF</color>
+    <color name="alpha_60_white">#99FFFFFF</color>
+    <color name="alpha_65_white">#A6FFFFFF</color>
+    <color name="alpha_70_white">#B3FFFFFF</color>
+    <color name="alpha_75_white">#BFFFFFFF</color>
+    <color name="alpha_80_white">#CCFFFFFF</color>
+    <color name="alpha_85_white">#D9FFFFFF</color>
+    <color name="alpha_90_white">#E6FFFFFF</color>
+    <color name="alpha_95_white">#F2FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="alpha_05_black">#0D000000</color>
+    <color name="alpha_10_black">#1A000000</color>
+    <color name="alpha_15_black">#26000000</color>
+    <color name="alpha_20_black">#33000000</color>
+    <color name="alpha_25_black">#40000000</color>
+    <color name="alpha_30_black">#4D000000</color>
+    <color name="alpha_35_black">#59000000</color>
+    <color name="alpha_40_black">#66000000</color>
+    <color name="alpha_45_black">#73000000</color>
+    <color name="alpha_50_black">#80000000</color>
+    <color name="alpha_55_black">#8C000000</color>
+    <color name="alpha_60_black">#99000000</color>
+    <color name="alpha_65_black">#A6000000</color>
+    <color name="alpha_70_black">#B3000000</color>
+    <color name="alpha_75_black">#BF000000</color>
+    <color name="alpha_80_black">#CC000000</color>
+    <color name="alpha_85_black">#D9000000</color>
+    <color name="alpha_90_black">#E6000000</color>
+    <color name="alpha_95_black">#F2000000</color>
+    <color name="black">#FF000000</color>
+
+    <color name="transparent">#00000000</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/colorAccent</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="base_bg">#ffeeeeee</color>
+    <color name="base_msg_color">#ff999999</color>
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+<!--    <color name="icons">#212121</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="background_color">#E1E6EB</color>
+    <color name="item_color">#FAFAFA</color>
+    <color name="fab_color">#99ff8f00</color>
+    <color name="textColorSecondary">#212121</color>-->
+</resources>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.turing.newaomo.davinsbrush.view.step.StepperIndicator
+            android:id="@+id/stepper_indicator_daily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="32dp"
+            app:stpi_labels="@array/stepLabels"/>
+
+        <TextView
+            android:id="@+id/gen_daily_text1"
+            android:text="图片、文件上传中..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/gen_daily_text2"
+            android:text="素材处理中..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/gen_daily_text3"
+            android:text="情感分析中..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/gen_daily_text4"
+            android:text="图像渲染中..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/gen_daily_text5"
+            android:text="获取图片中..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <ImageView
+            android:id="@+id/gen_daily_wave_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.turing.newaomo.davinsbrush.view.photoview.PhotoView
+            android:layout_gravity="center"
+            android:id="@+id/gen_daily_result_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="开始流程"
+            android:id="@+id/btn_start_daily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/gen_daily_linear_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:id="@+id/daily_card_result_restart"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:padding="5dp"
+                    android:paddingTop="30dp"
+                    app:cardBackgroundColor="#79CDCD"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="1dp"
+                    app:cardMaxElevation="0dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="2dp">
+
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:text="编辑"
+                        android:id="@+id/gen_daily_btn_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_gravity="center"
+                    android:id="@+id/daily_card_result_save"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:padding="5dp"
+                    android:paddingTop="30dp"
+                    app:cardBackgroundColor="#79CDCD"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="1dp"
+                    app:cardMaxElevation="0dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="2dp">
+
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:text="保存到相册"
+                        android:id="@+id/gen_daily_btn_save"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <cn.finalteam.galleryfinal.widget.HorizontalListView
+                android:id="@+id/list_share"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:cacheColorHint="@android:color/transparent"
+                android:clipToPadding="false"
+                android:fadingEdge="none"
+                android:horizontalSpacing="2dp"
+                android:numColumns="3"
+                android:verticalSpacing="2dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_bg_daily"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff000000" />
+
+        <com.turing.newaomo.davinsbrush.view.photoview.PhotoView
+            android:id="@+id/image_daily_result_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+
+</FrameLayout>

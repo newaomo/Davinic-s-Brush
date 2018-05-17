@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:leon="http://schemas.android.com/tools">
+
+    <android.support.v4.widget.DrawerLayout
+
+        android:id="@+id/drawer_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <FrameLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/main_finally_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <com.turing.newaomo.davinsbrush.view.navigationtabbar.ntb.NavigationTabBar
+                    android:id="@+id/main_finally_ntb"
+                    android:layout_width="match_parent"
+                    android:layout_height="150px"
+                    app:ntb_scaled="true"
+                    app:ntb_tinted="true"
+                    app:ntb_title_mode="all"
+                    app:ntb_titled="true"
+                    app:ntb_swiped="true"/>
+                <!--app:ntb_badge_gravity="top"-->
+                <!--app:ntb_badge_position="right"-->
+                <!--app:ntb_badged="true"-->
+
+            </LinearLayout>
+
+        </FrameLayout>
+        <!--
+        app:menu：设置menu xml布局
+        app:headerLayout=""：设置侧滑栏顶部布局
+        android:layout_gravity=""：设置导航栏的位置，left|right
+        -->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/drawer_navigation"
+            android:layout_width="800px"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/drawer_header">
+
+
+            <include layout="@layout/navigation_main"/>
+
+        </android.support.design.widget.NavigationView>
+    </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

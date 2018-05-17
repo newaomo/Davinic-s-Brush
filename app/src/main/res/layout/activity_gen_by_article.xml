@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:background="#f60025"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/main_btn_menu"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:src="@mipmap/menu"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/blue_semi_transparent"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+    <com.turing.newaomo.davinsbrush.activity.VerticalViewPager
+        android:id="@+id/gen_by_article_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

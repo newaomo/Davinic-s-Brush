@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:typer="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#d3171617"
+        android:layout_height="200px">
+
+
+        <ImageView
+            android:layout_marginLeft="70px"
+            android:layout_gravity="center_vertical"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:src="@mipmap/logo2"
+            />
+
+
+        <FrameLayout
+            android:layout_marginLeft="53px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:paddingTop="50px"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="请选择您要使用的"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+
+                <TextView
+                    android:text=" 图片资源"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#f60025"
+                    android:textSize="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#f2f0f0"
+        android:layout_marginTop="30px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+
+        <View
+            android:layout_gravity="center"
+            android:layout_marginLeft="15px"
+            android:background="#f33030"
+            android:layout_width="10px"
+            android:layout_height="71px"/>
+
+
+        <TextView
+            android:layout_marginLeft="25px"
+            android:layout_gravity="center"
+            android:textColor="#f60025"
+            android:textSize="50px"
+            android:text="文 件 选 择"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="3dp"
+            android:layout_marginTop="100px"
+            android:layout_marginBottom="100px"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground = "?attr/selectableItemBackground"
+            card_view:elevation="3dp">
+            <LinearLayout
+                android:layout_marginTop="50px"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/article_select_from_history"
+                        android:layout_marginLeft="110px"
+                        android:layout_marginRight="60px"
+                        android:src="@drawable/select_file_from_history"
+                        android:layout_width="130px"
+                        android:layout_height="130px" />
+
+
+                    <ImageView
+                        android:id="@+id/article_select_from_local"
+                        android:layout_marginLeft="60px"
+                        android:layout_marginRight="60px"
+                        android:src="@drawable/select_file_from_local"
+                        android:layout_width="130px"
+                        android:layout_height="130px" />
+
+                    <ImageView
+                        android:id="@+id/article_select_from_qq"
+                        android:layout_marginLeft="60px"
+                        android:layout_marginRight="60px"
+                        android:src="@drawable/select_file_from_qq"
+                        android:layout_width="130px"
+                        android:layout_height="130px" />
+
+                    <ImageView
+                        android:id="@+id/article_select_from_weixin"
+                        android:layout_marginLeft="60px"
+                        android:layout_marginRight="150px"
+                        android:src="@drawable/select_file_from_weixin"
+                        android:layout_width="130px"
+                        android:layout_height="130px" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="50px"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_marginLeft="140px"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="36px"
+                        android:text="历史"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="175px"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="36px"
+                        android:text="本地"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="190px"
+                        android:textSize="36px"
+                        android:text="QQ"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginLeft="190px"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="36px"
+                        android:text="微信"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#f2f0f0"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+
+        <View
+            android:layout_gravity="center"
+            android:layout_marginLeft="15px"
+            android:background="#f33030"
+            android:layout_width="10px"
+            android:layout_height="71px"/>
+
+
+        <TextView
+            android:layout_marginLeft="25px"
+            android:layout_gravity="center"
+            android:textColor="#f60025"
+            android:textSize="50px"
+            android:text="已 选 文 件"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100px"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginLeft="310px"
+                android:layout_gravity="center"
+                android:id="@+id/gen_by_article_image_doc"
+                android:scaleType="fitXY"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:src="@drawable/vw_ic_txt"
+                />
+
+            <ImageView
+                android:layout_marginLeft="60px"
+                android:layout_gravity="center"
+                android:id="@+id/gen_by_article_image_txt"
+                android:scaleType="fitXY"
+                android:layout_width="110px"
+                android:layout_height="110px"
+                android:src="@drawable/vw_ic_pdf"
+                />
+
+            <ImageView
+                android:layout_marginLeft="60px"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:id="@+id/gen_by_article_image_pdf"
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:src="@drawable/vw_ic_ppt"
+                />
+
+            <ImageView
+                android:layout_marginLeft="60px"
+                android:layout_marginRight="330px"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:id="@+id/gen_by_article_image_docx"
+                android:layout_width="85px"
+                android:layout_height="110px"
+                android:src="@drawable/vw_ic_word"
+                />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:paddingTop="50px"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/gen_by_article_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text=""
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="40px"
+        android:gravity="center"
+        android:id="@+id/button_article_next2"
+        android:layout_gravity="center"
+        android:text="下 一 步"
+        android:background="@drawable/button_select_size_edit"
+        android:textSize="60px"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20px"
+        android:layout_width="600px"
+        android:layout_height="120px" />
+
+
+    <LinearLayout
+        android:layout_marginTop="60px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/article_textview_last2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="40px"
+            android:textSize="60px"
+            android:textColor="#f60025"
+            android:text="＜上一步"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/article_textview_skip2"
+            android:layout_marginLeft="700px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="60px"
+            android:textColor="#f60025"
+            android:text="跳过＞"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

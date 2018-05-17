@@ -1,0 +1,212 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <!--Dialog-->
+    <style name="Base_AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog">
+
+        <!--不设置在6.0以上会出现，宽度不充满屏幕的情况-->
+        <item name="windowMinWidthMinor">90%</item>
+
+        <!-- 取消标题栏，如果在代码中settitle的话会无效 -->
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- 标题的和Message的文字颜色 -->
+        <!--<item name="android:textColorPrimary">@color/black</item>-->
+
+        <!-- 在使用v7包的alertDialog中无效，6.0中的app.alertDialog有效，这里是修改顶部标题背景颜色，具体颜色自己定，可以是图片 -->
+        <item name="android:topDark">@color/white</item>
+
+        <!-- 6.0有效，设置整个背景的颜色，在颜色后面就透明度无法使dailog透明 -->
+        <!-- 慎用，会出现奇怪的背景边框-->
+        <!--<item name="android:background">@color/white</item>-->
+
+        <!-- 有时无效，在某些系统上面设置背景颜色之后出现奇怪的背景，处这里设置背景为透明，为了隐藏边框 -->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowFrame">@null</item>-->
+
+        <!-- 进入和退出动画，左进右出（系统自带） -->
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>-->
+
+        <!-- 按钮字体颜色,全部一起改，单个改需要在Java代码中修改 -->
+        <item name="colorAccent">@color/app_main_color</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ImageTranslucentTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!-- 设置statusBarColor 为透明-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="theme_1" >
+        <item name="main_bg">@color/bg_main_normal</item>
+        <item name="main_textcolor">@color/textcolor_main_normal</item>
+        <item name="second_bg">@color/bg_second_normal</item>
+        <item name="second_textcolor">@color/textcolor_second_normal</item>
+    </style>
+
+    <style name="theme_2">
+        <item name="main_bg">@color/bg_main_dark</item>
+        <item name="main_textcolor">@color/textcolor_main_dark</item>
+        <item name="second_bg">@color/bg_second_dark</item>
+        <item name="second_textcolor">@color/textcolor_second_dark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <declare-styleable name="RatingBar">
+        <!--尺寸值-->
+        <attr name="starImageSize" format="dimension" />
+        <!--星星间距-->
+        <attr name="starPadding" format="dimension" />
+        <!--星星总数-->
+        <attr name="starCount" format="integer" />
+        <!--空白的星星资源文件值-->
+        <attr name="starEmpty" format="reference" />
+        <!--满星资源文件值-->
+        <attr name="starFill" format="reference" />
+        <!--半星资源文件值-->
+        <attr name="starHalf" format="reference" />
+        <!--是否可点击boolean值-->
+        <attr name="clickable" format="boolean" />
+        <!--当前进度float值-->
+        <attr name="starStep" format="float" />
+        <!--每次进度方式的值，整星还是半星-->
+        <attr name="stepSize">
+            <enum name="Half" value="0" />
+            <enum name="Full" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <!-- iOS7 Style -->
+    <style name="ActionSheetStyleiOS7">
+        <item name="actionSheetBackground">@android:color/transparent</item>
+        <item name="cancelButtonBackground">@drawable/slt_as_ios7_cancel_bt</item>
+        <item name="otherButtonTopBackground">@drawable/slt_as_ios7_other_bt_top</item>
+        <item name="otherButtonMiddleBackground">@drawable/slt_as_ios7_other_bt_middle</item>
+        <item name="otherButtonBottomBackground">@drawable/slt_as_ios7_other_bt_bottom</item>
+        <item name="otherButtonSingleBackground">@drawable/slt_as_ios7_other_bt_single</item>
+        <item name="cancelButtonTextColor">#1E82FF</item>
+        <item name="otherButtonTextColor">#1E82FF</item>
+        <item name="actionSheetPadding">10dp</item>
+        <item name="otherButtonSpacing">0dp</item>
+        <item name="cancelButtonMarginTop">10dp</item>
+        <item name="actionSheetTextSize">12sp</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <!-- 底部的navigationtabbar-->
+    <declare-styleable name="NavigationTabBar">
+        <attr name="ntb_titled" format="boolean"/>
+        <attr name="ntb_badged" format="boolean"/>
+        <attr name="ntb_scaled" format="boolean"/>
+        <attr name="ntb_tinted" format="boolean"/>
+        <attr name="ntb_swiped" format="boolean"/>
+        <attr name="ntb_badge_use_typeface" format="boolean"/>
+
+        <attr name="ntb_title_size" format="dimension"/>
+        <attr name="ntb_title_mode" format="enum">
+            <enum name="all" value="0"/>
+            <enum name="active" value="1"/>
+        </attr>
+
+        <attr name="ntb_badge_size" format="dimension"/>
+        <attr name="ntb_badge_position" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="ntb_badge_gravity" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+        <attr name="ntb_badge_bg_color" format="color"/>
+        <attr name="ntb_badge_title_color" format="color"/>
+
+        <attr name="ntb_typeface" format="string"/>
+        <attr name="ntb_corners_radius" format="dimension"/>
+        <attr name="ntb_icon_size_fraction" format="float"/>
+        <attr name="ntb_animation_duration" format="integer"/>
+
+        <attr name="ntb_inactive_color" format="color"/>
+        <attr name="ntb_active_color" format="color"/>
+        <attr name="ntb_bg_color" format="color"/>
+
+        <attr name="ntb_preview_colors" format="reference"/>
+    </declare-styleable>
+
+    <!-- 自定义全屏主题 -->
+    <style name="Theme.CustomizedFullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorControlActivated">#FFCC00</item>
+    </style>
+
+    <style name="MyCheckBox" parent="AppTheme">
+        <item name="colorControlNormal">#CCCCCC</item>
+        <item name="colorControlActivated">#0099CC</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+    </style>
+
+    <style name="BaseAppTheme.NoTrans">
+    </style>
+
+    <style name="BaseAppTheme.Trans">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="BaseAppTheme">
+        <item name="android:windowBackground">@mipmap/ic_launcher</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="WindowAnimationFadeInOut">
+        <item name="@android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="@android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+</resources>

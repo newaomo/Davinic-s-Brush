@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#d3171617"
+        android:layout_height="200px">
+
+
+        <ImageView
+            android:layout_marginLeft="70px"
+            android:layout_gravity="center_vertical"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:src="@mipmap/logo2"
+            />
+
+
+        <FrameLayout
+            android:layout_marginLeft="53px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:paddingTop="50px"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="请选择您要使用的"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+
+                <TextView
+                    android:text="  文 本"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="#f60025"
+                    android:textSize="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="#f2f0f0"
+            android:layout_marginTop="30px"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100px">
+
+            <View
+                android:layout_gravity="center"
+                android:layout_marginLeft="15px"
+                android:background="#f33030"
+                android:layout_width="10px"
+                android:layout_height="71px"/>
+
+            <TextView
+                android:layout_marginLeft="25px"
+                android:layout_gravity="center"
+                android:textColor="#f60025"
+                android:textSize="50px"
+                android:text="标 题"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:layout_marginLeft="50px"
+            android:id="@+id/article_edit_title"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="25px"
+            android:hint="请输入您的标题"
+            android:textSize="60px"
+            android:background="@drawable/edittext_size"
+            android:layout_width="800px"
+            android:layout_height="150px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="#f2f0f0"
+            android:layout_marginTop="15px"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100px">
+
+            <View
+                android:layout_gravity="center"
+                android:layout_marginLeft="15px"
+                android:background="#f33030"
+                android:layout_width="10px"
+                android:layout_height="71px"/>
+
+            <TextView
+                android:layout_marginLeft="25px"
+                android:layout_gravity="center"
+                android:textColor="#f60025"
+                android:textSize="50px"
+                android:text="标 语"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/article_edit_slogan"
+            android:layout_width="800px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="25px"
+            android:background="@drawable/edittext_size"
+            android:gravity="center"
+            android:hint="请输入您的标语"
+            android:textSize="55px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="#f2f0f0"
+            android:layout_marginTop="15px"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100px">
+
+            <View
+                android:layout_gravity="center"
+                android:layout_marginLeft="15px"
+                android:background="#f33030"
+                android:layout_width="10px"
+                android:layout_height="71px"/>
+
+            <TextView
+                android:layout_marginLeft="25px"
+                android:layout_gravity="center"
+                android:textColor="#f60025"
+                android:textSize="50px"
+                android:text="内 容"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/article_edit_content"
+            android:layout_marginLeft="50px"
+            android:layout_gravity="center"
+            android:layout_marginTop="25px"
+            android:gravity="center"
+            android:hint="请输入你的内容"
+            android:textSize="55px"
+            android:background="@drawable/edittext_size"
+            android:layout_width="800px"
+            android:layout_height="450px" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="100px"
+        android:gravity="center"
+        android:id="@+id/button_article_next4"
+        android:layout_marginLeft="30px"
+        android:layout_gravity="center"
+        android:text="下 一 步"
+        android:background="@drawable/button_select_size_edit"
+        android:textSize="60px"
+        android:textColor="#ffffff"
+        android:layout_width="600px"
+        android:layout_height="120px" />
+
+
+    <LinearLayout
+        android:layout_marginTop="40px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/article_textview_last4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="40px"
+            android:textSize="60px"
+            android:textColor="#f60025"
+            android:text="＜上一步"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

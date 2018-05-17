@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:id="@+id/profile_card_introduce"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#79CDCD"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="1dp"
+        app:cardMaxElevation="0dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="2dp">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center" android:text="这里是介绍内容xxxxxxxxxx\nxxxxx\nxxx\nxxxxxx\nxxxxx\nxxxxxxx\nxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            android:id="@+id/profile_btn_custom_introduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+        <include layout="@layout/content_main_custom_profile" />
+    </ScrollView>
+
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:id="@+id/profile_card_view_7"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="#79CDCD"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="1dp"
+        app:cardMaxElevation="0dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="2dp">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center" android:text="生成"
+            android:id="@+id/profile_btn_add_gen"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:text="上一步"
+        android:textSize="20dp"
+        android:id="@+id/gen_by_profile_last7"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

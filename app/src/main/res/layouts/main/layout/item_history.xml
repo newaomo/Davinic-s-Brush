@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="50px"
+    android:layout_height="534px">
+
+    <ImageView
+        android:id="@+id/item_image_history"
+        android:layout_width="300px"
+        android:layout_height="533px"
+        android:layout_gravity="center"
+        android:src="@drawable/picture_01_01_03_04_06" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="80px"
+            android:layout_marginBottom="30px"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="100px"
+                android:layout_marginRight="30px"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="55px"
+                android:text="尺寸:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/item_history_size"
+                android:textSize="55px"
+                android:text="1080*1920"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="30px"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="100px"
+                android:layout_marginRight="30px"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="55px"
+                android:text="海报类型:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/item_history_type"
+                android:textSize="55px"
+                android:text="日用海报"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/item_history_date"
+            android:layout_marginTop="130px"
+            android:textColor="#000000"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="30px"
+            android:textSize="45px"
+            android:text="2018-05-10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.turing.newaomo.davinsbrush.view.step.StepperIndicator
+            android:id="@+id/stepper_indicator_article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="32dp"
+            app:stpi_labelSize="35px"
+            app:stpi_circleRadius="30px"
+            app:stpi_circleColor="@color/gray"
+            app:stpi_indicatorColor="#f60025"
+            app:stpi_lineDoneColor="#f60025"
+            app:stpi_labelColor="@color/black"
+            app:stpi_lineColor="@color/gray"
+            app:stpi_labels="@array/stepLabels_article"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/gen_article_wave_image"
+                android:layout_width="400px"
+                android:layout_height="400px"/>
+
+            <com.turing.newaomo.davinsbrush.view.photoview.PhotoView
+                android:layout_marginTop="50px"
+                android:layout_gravity="center"
+                android:id="@+id/gen_article_result_image"
+                android:layout_width="750px"
+                android:layout_height="1175px" />
+
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/gen_article_text1"
+            android:textSize="50px"
+            android:text="图片、文件上传中..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/gen_article_text2"
+            android:text="素材处理中..."
+            android:textSize="50px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="50px"
+            android:id="@+id/gen_article_text3"
+            android:text="情感分析中..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="50px"
+            android:id="@+id/gen_article_text4"
+            android:text="图像渲染中..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="50px"
+            android:gravity="center"
+            android:id="@+id/gen_article_text5"
+            android:text="获取图片中..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:id="@+id/gen_article_linear_btn"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="180px">
+
+                <Button
+                    android:id="@+id/gen_article_btn_edit"
+                    android:layout_marginTop="10px"
+                    android:layout_marginLeft="80px"
+                    android:layout_gravity="center"
+                    android:text="编 辑"
+                    android:background="@drawable/button_select_size_edit"
+                    android:textSize="50px"
+                    android:textColor="#ffffff"
+                    android:layout_width="280px"
+                    android:layout_height="125px" />
+
+                <Button
+                    android:id="@+id/gen_article_btn_save"
+                    android:layout_marginTop="10px"
+                    android:layout_marginLeft="80px"
+                    android:layout_gravity="center"
+                    android:text="保 存"
+                    android:background="@drawable/button_select_size_edit"
+                    android:textSize="50px"
+                    android:textColor="#ffffff"
+                    android:layout_width="280px"
+                    android:layout_height="125px" />
+
+                <Button
+                    android:id="@+id/gen_article_btn_grade"
+                    android:layout_marginTop="10px"
+                    android:layout_gravity="center"
+                    android:text="评分"
+                    android:background="@drawable/button_select_size_edit"
+                    android:textSize="50px"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="80px"
+                    android:layout_marginRight="120px"
+                    android:layout_width="280px"
+                    android:layout_height="125px" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="50px"
+                android:background="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="5px"/>
+
+            <cn.finalteam.galleryfinal.widget.HorizontalListView
+                android:layout_marginTop="30px"
+                android:id="@+id/list_share"
+                android:layout_width="match_parent"
+                android:layout_height="210px"
+                android:cacheColorHint="@android:color/transparent"
+                android:clipToPadding="false"
+                android:fadingEdge="none"
+                android:horizontalSpacing="2dp"
+                android:numColumns="3"
+                android:verticalSpacing="2dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_bg_article"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff000000" />
+
+        <com.turing.newaomo.davinsbrush.view.photoview.PhotoView
+            android:id="@+id/image_article_result_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+
+</FrameLayout>

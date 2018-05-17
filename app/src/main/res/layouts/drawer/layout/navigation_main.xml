@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:leon="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="450px">
+
+    <View
+        android:background="#36c7c1c1"
+        android:layout_width="match_parent"
+        android:layout_height="20px"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+
+        <ImageView
+            android:layout_marginLeft="20px"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:padding="35px"
+            android:src="@drawable/drawer_number"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:paddingLeft="60px"
+            android:textSize="30px"
+            android:layout_gravity="center"
+            android:text="单次选择图片数量"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:paddingLeft="200px"
+            android:layout_gravity="center"
+            android:text="8"
+            android:textColor="#4357dd"
+            android:textSize="40px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:background="#4bbdb7b7"
+        android:layout_marginLeft="40px"
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+
+        <ImageView
+            android:layout_marginLeft="20px"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:padding="35px"
+            android:src="@drawable/drawer_crop"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:paddingLeft="60px"
+            android:layout_gravity="center"
+            android:textSize="30px"
+            android:text="是否剪裁"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.turing.newaomo.davinsbrush.view.SwitchButton
+            android:layout_marginLeft="300px"
+            android:layout_gravity="center"
+            android:layout_width="120px"
+            android:layout_height="60px" />
+
+    </LinearLayout>
+
+     <View
+        android:background="#36c7c1c1"
+        android:layout_width="match_parent"
+        android:layout_height="20px"/>
+
+    <LinearLayout
+        android:id="@+id/drawer_simple_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+
+
+        <ImageView
+            android:layout_marginLeft="20px"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:padding="35px"
+            android:textSize="30px"
+            android:src="@drawable/drawer_simple"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:paddingLeft="60px"
+            android:layout_gravity="center"
+            android:textSize="30px"
+            android:text="简约模式"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+     <View
+        android:background="#4bbdb7b7"
+        android:layout_marginLeft="40px"
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+
+        <ImageView
+            android:layout_marginLeft="20px"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:padding="35px"
+            android:src="@drawable/drawer_voice"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:paddingLeft="60px"
+            android:layout_gravity="center"
+            android:text="语音模式"
+            android:textSize="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.turing.newaomo.davinsbrush.view.SwitchButton
+            android:layout_marginLeft="300px"
+            android:layout_gravity="center"
+            android:layout_width="120px"
+            android:layout_height="60px" />
+
+    </LinearLayout>
+
+
+    <View
+        android:background="#4bbdb7b7"
+        android:layout_marginLeft="40px"
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+
+        <ImageView
+            android:layout_marginLeft="20px"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:padding="35px"
+            android:src="@drawable/drawer_night"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:paddingLeft="60px"
+            android:layout_gravity="center"
+            android:textSize="30px"
+            android:text="夜间模式"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.turing.newaomo.davinsbrush.view.SwitchButton
+            android:layout_marginLeft="300px"
+            android:layout_gravity="center"
+            android:layout_width="120px"
+            android:layout_height="60px" />
+
+    </LinearLayout>
+
+
+    <View
+        android:background="#4bbdb7b7"
+        android:layout_marginLeft="40px"
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+
+        <ImageView
+            android:layout_marginLeft="20px"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:padding="35px"
+            android:src="@drawable/drawer_collect"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:paddingLeft="60px"
+            android:layout_gravity="center"
+            android:text="个人收藏"
+            android:textSize="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+     <View
+        android:background="#4bbdb7b7"
+        android:layout_marginLeft="40px"
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <View
+        android:layout_marginTop="337px"
+        android:background="#4bbdb7b7"
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+
+        <ImageView
+            android:layout_marginLeft="20px"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:padding="35px"
+            android:src="@drawable/drawer_setting"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:paddingLeft="30px"
+            android:layout_gravity="center"
+            android:text="设置"
+            android:textSize="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:layout_marginLeft="280px"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:padding="35px"
+            android:src="@drawable/drawer_logout"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:paddingLeft="30px"
+            android:layout_gravity="center"
+            android:text="退出"
+            android:textSize="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

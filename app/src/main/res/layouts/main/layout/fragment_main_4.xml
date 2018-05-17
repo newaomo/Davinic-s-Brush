@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:leon="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:paddingTop="30dp"
+        app:cardElevation="1dp"
+        app:cardMaxElevation="0dp"
+        app:cardUseCompatPadding="true"
+        >
+        <!--app:cardCornerRadius="5dp"-->
+        <!--app:cardCornerRadius="5dp"-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/fragment_profile_head"
+                android:padding="10dp"
+                android:src="@drawable/girl"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="200dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/fragment_profile_nick"
+                    android:layout_weight="1"
+                    android:text="子桓"
+                    android:paddingTop="30dp"
+                    android:paddingStart="30dp"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp" />
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:textSize="12dp"
+                        android:paddingStart="20dp"
+                        android:text="Brush账号:"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent" />
+
+
+                    <TextView
+                        android:id="@+id/fragment_profile_brush_number"
+                        android:textSize="16dp"
+                        android:paddingStart="5dp"
+                        android:text="123456789"
+                        android:paddingTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/fragment_profile_image_edit"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/righticon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <com.turing.newaomo.davinsbrush.view.setting.LSettingItem
+        android:paddingTop="20dp"
+        android:id="@+id/fragment_profile_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        leon:isShowRightText="true"
+        leon:isShowUnderLine="true"
+        leon:rightText="99+"
+        leon:rightTextColor="@color/gray"
+        leon:leftIcon="@drawable/fragment3_download"
+        leon:leftText="我的下载"
+       />
+
+    <com.turing.newaomo.davinsbrush.view.setting.LSettingItem
+        android:id="@+id/fragment_profile_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        leon:isShowRightText="true"
+        leon:isShowUnderLine="true"
+        leon:rightText="99+"
+        leon:rightTextColor="@color/gray"
+        leon:leftIcon="@drawable/fragment3_history"
+        leon:leftText="我的历史" />
+
+    <com.turing.newaomo.davinsbrush.view.setting.LSettingItem
+        android:id="@+id/fragment_profile_collection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        leon:isShowRightText="true"
+        leon:isShowUnderLine="true"
+        leon:rightText="99+"
+        leon:rightTextColor="@color/gray"
+        leon:leftIcon="@drawable/fragment3_collection"
+        leon:leftText="我的收藏" />
+
+    <com.turing.newaomo.davinsbrush.view.setting.LSettingItem
+        android:id="@+id/fragment_profile_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        leon:isShowRightText="true"
+        leon:isShowUnderLine="true"
+        leon:rightText="99+"
+        leon:rightTextColor="@color/gray"
+        leon:leftIcon="@drawable/fragment3_gallery"
+        leon:leftText="我的图库" />
+
+    <com.turing.newaomo.davinsbrush.view.setting.LSettingItem
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_profile_setting"
+        leon:isShowUnderLine="true"
+        leon:rightTextColor="@color/gray"
+        leon:leftIcon="@drawable/fragment3_setting"
+        leon:leftText="设置"
+        leon:leftTextMarginLeft="20dp"
+        leon:rightIcon="@drawable/righticon"/>
+
+
+
+
+</LinearLayout>

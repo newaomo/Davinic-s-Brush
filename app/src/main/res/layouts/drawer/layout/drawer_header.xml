@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/header_icon"
+        android:layout_width="800px"
+        android:layout_height="450px"
+        android:src="@drawable/drawer_header_image"/>
+
+    <TextView
+        android:paddingTop="180dp"
+        android:layout_below="@+id/nick_name"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/desc"
+        android:text="Davinci's Brush，您的专属设计师！"
+        android:textSize="18sp"/>
+</FrameLayout>

@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_08c7b1c3d847341e3d11ff63f72904dce2a14863\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-generator\3.0.0\ef03fdf4961ef0714ff37ab7480f46c4a437ba5c\greendao-generator-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ef03fdf4961ef0714ff37ab7480f46c4a437ba5c">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-generator-3.0.0_30d3900fc94c023e2ee23229508f3e77b4f24574\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\commons-cli\commons-cli\1.2\2bf96b7aa8b611c177d329452af1dc933e14501c\commons-cli-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-cli-1.2_ecf8315344b7954eeac04d03f97e1ab94bad44c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\1f7f73ee90225054349e39ef9577edd31ea5976e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1afd2348108b98926940c1959d811ab94895d812">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e752bbfe84cb11051422ef7d83b50888d9d03ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\279c21f7699a7b9497e16869ee448e0ec1719025\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6b4840c6e27073fea98448a0f98c89f4d5ee1f1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\823443a0a256ca4ce5876f04b7a9c2351966c4a2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ebf6268cdf8e51b51ceff4888cc5d3a366086e38">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0755ff836dd8d4d95a45c94ef9596d3c51c567df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.2\febfd2d9e89bde4c3a9723bcd9522cba96bddac7\dagger-2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="febfd2d9e89bde4c3a9723bcd9522cba96bddac7">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\dagger-2.2_0c7b5d7cd6741addb2ad1e959a6442bd76ccd378\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.systembartint\systembartint\1.0.3\de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287\systembartint-1.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\systembartint-1.0.3_52688c7bfe76e6a140335dcd0e35ea217ab5dd3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\d6073de69c1b02205c5490992c4cfe3b7a4ae35a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4fa8c275156c8a6319afec28c2081e7a84247dee">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b3f94dbc498382ad4f8fd44eca8a8d26b24283b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_8e231dac1d2815f6efa8561025be1d6f73719ad6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_5f3e8a43d30d7fda925f04205f795fdba5bc42af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\0cec2ce1491bc2084adf08688d26aad549a5fb80\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="daa7557f79484f11cd756fad08370a383792478b">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_baf239a0fa04e45dd72b8a6cfc529db7b6ec88bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\23afefaf71da15935de88fcf94129cfeba511bad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b43fc5507b44786a37a3172f479978123d769f3f">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7e45dfad260dd11b7cfd37c49a925656d9a91444\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\7b29dd44ad199b2998a9e8d1ea2501aba10331b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a85a2d05f063178f0b6e3e6965d4ec9ba5812239\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ColorfulNews-master\app\libs\Sunflower.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="662ecdfa5fa755ef7d5de03ccbfaaf8b9ee23250">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\Sunflower_58a43abd42726ff5ce502d5ce4b12d68571d9467\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\37005adc34e4260b84dead6ff2357610dac8db20\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c74f0952cfb481882d8cedf4ca9f3c60289a3301">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ebee1a0b38b9a3b29ea9b28e7a21440a59a67c12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_8a604ca52e95abc77ea5dbac9f3c0998332f38db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-analyzer\1.4-beta2\449777cd466ac0a16f7e8d0dc508e70e2cdd13a9\leakcanary-analyzer-1.4-beta2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="449777cd466ac0a16f7e8d0dc508e70e2cdd13a9">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\leakcanary-analyzer-1.4-beta2_0071fcc7854d07ac83442a0a3985e9bff100b852\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\45a742f5895fccc9b0c4612b0cda1ef7c0889f99\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b8c87b3d43c2f0370d7a4fac57baf4b0a56e3b71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.7.2\84ffa765dd258dbab8695963c41308b054f3a1cb\jackson-databind-2.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="84ffa765dd258dbab8695963c41308b054f3a1cb">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.7.2_8a0cf87da99905685711347db9688ade65effb64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.haha\haha\2.0.2\fd65b84d12d6adc77ec0e4fcaca623fc391d8679\haha-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fd65b84d12d6adc77ec0e4fcaca623fc391d8679">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\haha-2.0.2_ac5c4ccaee63b82d5d25502d84be01f5d6f2278b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\45607d42a67e15ea2b27514c4041e5839c286d6d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26b6f0185cbba8917ba9d9d0bd170f95311622ab">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e80fdd86f79b0997c0c31f353af73520179ea21b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\ea370f7ca6029cae7d8d9b2546c5a24219354892\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cdfba86b22f5bbe7f574b0e1e868eb59ec84cb9a">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_baffc2ce98a1be1d6a47182c87e2623632c8cf29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\a3c2325dacb5451b2ffeaf77bfc63aa08897130e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0ad67364a82d646a237b17bf61ca78f9e3a516f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\de.greenrobot\greendao\1.3.7\dda08161d004c4df96938da6909f1c2b96cd33c8\greendao-1.3.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dda08161d004c4df96938da6909f1c2b96cd33c8">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-1.3.7_ead4868bbe3573305490f239c112d3e12ddff854\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\73aa73f16d3f71a6d16d52675d022f60e5b87a09\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6007f94ceebd29d5624024608dc4598756d028f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-api\3.2.0\c6d610abe1d75d758431c9234917a349abc0a0ac\greendao-api-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c6d610abe1d75d758431c9234917a349abc0a0ac">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-api-3.2.0_81c1b9b91ce68aa605bd45275dc54cebf048dfbc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\65d5db81f6ab9ae78c85f4cc978c9a581a07c40a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9ef8897d8cbf06102884c84c50ee729f5760e3fa">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2fdf4df6aca05f24a2b2e0ab8b4b35bddc90f5a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_05c98385b8d6dba856bfd346bf256a4730fa48a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.5\ece7b5d0870e66d8226dab6dcf47a2b12afff061\rxjava-1.1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.5_b98dd28c4a7ea9c252c01c088db639d1cc42f64a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\d926ac1845f2a6b26ef9a7c339fe2817950ffe6f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f970a1cef1b784a88edbb034e4e5fbd6bc0cdce9">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bea6bab52fcee69317e134bc8f93a13dcf674f42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ColorfulNews-master\app\libs\Msc.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c780862c40d4942fe3e0df73f24a4c47e6b6650d">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\Msc_e7865422889c51d793d9266581e916dc79ae29ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ColorfulNews-master\app\libs\tbs_sdk_thirdapp_v3.2.0.1104_43200_sharewithdownload_withfilereader_withoutGame_obfs_20170609_115346.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e58a5f3e98fddc1752eb23c37db5e4b8fc174fe3">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\tbs_sdk_thirdapp_v3.2.0.1104_43200_sharewithdownload_withfilereader_withoutGame_obfs_20170609_115346_4831917873e76910925c65ab5450409f3a3fdb8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\0bb58e6ae084420dd064bb4e7cf44828f631eabb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7db0250bd2734501c74fc4756e9052498aa61472">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_707b5aca9c5a439b1795803a02c6bd2abdf8729a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_233f7bbf6248f94ca7d8e5c4f5774463b0817838\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\a00c33448dbd2bfd5c2c102f71a2014083eba06f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5fb35087972dc0732e348b40ba06c493c854379d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\javax.inject-1_f8c8b12c9ac8861091c89f888092b5f69942747a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_ca3f65e69e7373fd3b11cd90e656e8f53110648e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\f6a6718b1af1000ec36f71bee474ac2b1a17c8b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e4960dfdc1fb4d43340c989c498ebcdd08409b6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\400ea23d0161a8c857451ecd6142c28823ddb32d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbff0cc6d75c44e48e7575b9de02f46130129ac5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\6ad3f3600c00c24928ec7827f6fa55715c868590\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8795af3e130206443f2d5ed45f1b26067aff70dc">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d7e8ca29f3c413ed365fd940eb57e3263f2b5bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\07224a93c0cafbaec564a0bbcb212ab80b434a86\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf5e2940501f8f7b9175df6491cebb84f5690f14">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ca2b70b8224d362a3a77866fa1b480f9a605d665\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\dddcc25fc95111e40c778075142134f4775d614a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6973343e90b063c3bdcb36d33b650e890d67d66b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-jackson\2.0.0\9506825ddc5a43b38a3d104db913ff0f4cb2e323\converter-jackson-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9506825ddc5a43b38a3d104db913ff0f4cb2e323">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-jackson-2.0.0_e9e3a2f16eebc0481f8e8a2dc7b104467b150397\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\bc2a7e9a02f19d631ea123a4d2669ece7b9010ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5bf70f3683146e4875c006624543cb0a13eac91">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b3786ed756e267bf8c23ad7c1e77e59e324adb3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\bc635947e5e58194ee00fc8dc235f189dd8debf8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af9f4d6d4e371f3b67e77b96ee23edef13ff71a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\e9b14300d7783fa9bcc25a369e78b980360ab062\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f201fe6936d473b9d174823a22ed8fbb839f140\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\831f42414da219638095a8aede1d7933d2c3d68e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7a3c169f79229ba601a876a2d78b9fecd83bb9d9">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82292cf34a27f0c406a086fd200811c4221a42b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\dd84f504c29cd1cd69be21092145bdab5dffb379\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37cbbae78ad7ac4caae405943897022742b1019a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\0c7bb3d193ba24055ca427700cde64d15967eeac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="970b2eadc8805e4e04a9008f97368c7b8cc78651">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_86d0a32c7676240cdd8e59d6fb73edb1ac7a1b1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.1\369f9aa48a629b4e92557b37326f42dc3de796e4\MPAndroidChart-v3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="369f9aa48a629b4e92557b37326f42dc3de796e4">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.1_aa2bbbc0d56ffa0cfa9d6757059779780104bcbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\3e4bee981e581b713b3252f180d158de59252ef4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9caa8aac76473bc96dcba1243b047b2e12bde965\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.leakcanary\leakcanary-watcher\1.4-beta2\6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92\leakcanary-watcher-1.4-beta2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a920fb0d14e5e3b36e37cf33b1eeef2bcce4c92">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\leakcanary-watcher-1.4-beta2_a4452a7ea3ac05b1d7ff1888695daa7cc9eaefda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\05380bfafa0f3bda21a18176e9a8cf4716e0fe53\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_14bfa1f4d4b5a18f1910262ba040f6f5012f6482\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.7.2\8b8310381b690e317f5f0574e9b2dd7034778b4c\jackson-core-2.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8b8310381b690e317f5f0574e9b2dd7034778b4c">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.7.2_f93ff8f6550852fab0c80e51746278af5ead29f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\111f6386879ef96ea082a887c91427c36c3f2ebb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="966da5b6a8bfdef0bfc660e349f8765dde5cb6f3">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fbfadc4d088516cbc5921801a31590779b2311ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\2d353e5d1afb2dc6bbf2c97b6b572ee80e8f5dbf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b0e10a526509572537612820f2e46b7436f6c188">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b3d534f2aeb05bb64ace5e80ad740723ba4a9be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\org.freemarker\freemarker\2.3.23\cd143cd8c02a9f838e3cb75a6dfe133750437f6d\freemarker-2.3.23.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cd143cd8c02a9f838e3cb75a6dfe133750437f6d">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\freemarker-2.3.23_d039cc44c59a821b0e650b8cf34bfaabeb4a0a32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\bfcb53eeacdb9d5eaa81d7a30fb48cde89461d80\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="74ccbcc431e5d95ee2cf2783128700f32222dca3">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dae1d8217c940fb648b56bbd53fdb3ddcc2a51c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.0.1\345b89f45d02d8b09400b472fab7b7e38f4ede1f\butterknife-annotations-8.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="345b89f45d02d8b09400b472fab7b7e38f4ede1f">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.0.1_e6bce4a8b27a1ce7bb6fd4df1a031f2c6e0650b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\869b59414e99e071e2180fbe6311aba9b8996965\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8d5e74c029eba4b8d4eeb7d680f5e6bb2cbf61bb">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17ac4a4677dc9b313cb730d3e92ecc5b8b63632c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\39351ac2e8b40918e8a09c54bca3e810454d6ee0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8db912a3b8423e9e43acfe96a7a34f0f1cb8005d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.5_36d7452fbd6daf19e759ea0fe62124380948dc5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\f783a487d66e73df382057bf8ed2961afa896ab3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c77602d43223db798b1ca56cf307ab0ee3c0e63f">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c13f9b7d43813b93e02f10ea68e63d5cf9fded58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\65263d3a1a1c576f920efdfdd47b1078cb2d6306\output\jars\libs\BmobSDK_3.5.0_20160630.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8eb5c605a02f792e326c5ac8e4feb2c18dd171ad">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\BmobSDK_3.5.0_20160630_ce155f36f36dbbd85ed80b7e15079c8c097e2cce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_5f72c995c53ccc8946bcbd01acda09392830c004\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_cf93ba19bc306f065f45616c3c76915f25768af6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.2\a60c039ba54c73d1133b72178e1b04133c73d13d\adapter-rxjava-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a60c039ba54c73d1133b72178e1b04133c73d13d">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.2_23f1d290e40ccfb0f996f6f5d2c1e012f52d7605\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\3aaa6bb591869e5bc2839eaa9891497bfbe2489b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9c8472f8e10502af60d0f63ea11eed68bdf690c2">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bb220b33872592b2b118247b0513f5d0497f4c86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\fef2b0ffef4e2f84e7504fb6167017d3ba0f1514\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b881010e06dc39be15b7465cd16492eedbab246f">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c469be989be9bbbc1109fdd51e48349a63069c2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\030d92b0a4ad301d516335e6bb5e1aa2b5d402f7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1c32ab2e2421b179912b718196eee2277ba1c7c9">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a3b1ad536b7c0af86d4d3942e33c3f68d8f346c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\edb167d29875e8d7c724c1157cace3fa0f58180b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a06299b94845356c731524654ba386d0877e6b53">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6bcd985c11e150f5e2b5678cf90cd5c8e9ebf6c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\69cffe0e3cee827daa961dc14de32e0e49cdda31\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e39dd45427d2ba136c82ed1946f80dd3dff16695">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_316e02f8d2ea401823dcf4c8ce681d3f7b392c4c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\cdc00e1ca9cf192e57696d9f1629e29fb3960ca9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b3ec214e56d71e9d6eafeb94a5cb381d52f41ab1">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f214ece88847a1b11cfde5a35c9c082bfc99fde3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\18247dcf79f67e441b352c4661dc302205cc30fd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1bc44ebeb4a87dc1c36b9164175bcfbf519d7454\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\61aae116dc27686647367cca5449c48c91d045e0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c14c9339276e12cce0737351a464fce282301d2f">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_291b8f6e3bd1f4e882bc2ade57e917b1796ffb52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\65263d3a1a1c576f920efdfdd47b1078cb2d6306\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e47f10299673ab68f24c595f96b18086cc9a8384">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa851da72a3f00e03ff64fcac05950c9239109ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.0.1\1d232df84491c0453e077002509911301109409d\logging-interceptor-3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1d232df84491c0453e077002509911301109409d">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.0.1_768326461ec1278c555820a5e7c1c50e903fc92f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-2.0.1_49a241907eecb82bfc3bbd73e1af5176e4206fe4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\0d3b4db737d8d5baf3b9d0f42125f9dd01118b47\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f4f4314a1fc9912d8341e1ffc00cb662bd9f614\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_f67de769cc148c8218ca0d0f2286e690af70f597\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\4c09daa11fde0590776dda38ab74cb59f20b84ab\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3c3dd85f344ada5621e89985f917b18643e6dd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.7.0\19f42c154ffc689f40a77613bc32caeb17d744e3\jackson-annotations-2.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="19f42c154ffc689f40a77613bc32caeb17d744e3">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.7.0_863d160ea00070ba49f8bd3bab4a1370185ef145\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_66d3674f5e9c3e31bc8b35b8573df15c537fbb62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\362aaaba2620032f018783159439b5978d84dd72\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_39cd8a3694e57e22717ae084a13f5d9860b6c0b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\96cc53aaf3a14bd8f83c39b1caa988c07b186921\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38c392cb3ae7e2d1cac67a1a7e7c0595d65587a4">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8534c46acca279759bbb86fba21ff5d7af31b5da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\com.github.Raizlabs.DBFlow\dbflow-core\3.0.0-beta6\3d1671d848a10db82161501ea57beeee60b6efac\dbflow-core-3.0.0-beta6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3d1671d848a10db82161501ea57beeee60b6efac">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\dbflow-core-3.0.0-beta6_9e0a619e7b7e6fc60ffbd115f0e42a3b06556b08\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\9f97289f1f4c07e3d824caf7a7abf2d74c9bfd05\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1d5d66192b53febfc212a5e2634405138b4675d9">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_88c9f2045b6ab445dde7f3cc63bed5c0335be4b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\24bd0d5bcc7ca81d423cdae766b99287e96529e2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dfaddd713954afbb5801477742c5bc6042ef537a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao\3.2.0\e70040568b2929b8e5869ad1ffca8e4386dc53bc\greendao-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e70040568b2929b8e5869ad1ffca8e4386dc53bc">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-3.2.0_d8f298144e7992ceed5cf9e2ffd41e65253ecae7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\newao\.android\build-cache\aa5fd5cb96d409c2a69aa97ca2217f113efe909e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="74ca46e7da11e3d065eb64cdbe6568a7ed74c211">
+        <dex dex="D:\ColorfulNews-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6ca05c24c4af7f377b5ade27d0b360b5e9f63f08\classes.dex" />
+    </item>
+
+</items>

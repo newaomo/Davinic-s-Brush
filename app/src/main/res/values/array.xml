@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="test_string_array">
+        <item>山水风景</item>
+        <item>城市交通</item>
+        <item>美食餐饮</item>
+        <item>星空夜景</item>
+        <item>田园山庄</item>
+    </string-array>
+
+
+    //底部的navigationtabbar
+    <string-array name="default_preview">
+        <!--<item>#df5a55</item>-->
+        <!--<item>#f9bb72</item>-->
+        <!--<item>#76afcf</item>-->
+        <!--<item>#dd6495</item>-->
+        <!--<item>#72d3b4</item>-->
+
+        <item>#0f8DEE</item>
+        <item>#0f8DEE</item>
+        <item>#0f8DEE</item>
+        <item>#0f8DEE</item>
+        <item>#0f8DEE</item>
+        <!--<item>#f60025</item>-->
+        <!--<item>#f60025</item>-->
+        <!--<item>#f60025</item>-->
+        <!--<item>#f60025</item>-->
+        <!--<item>#f60025</item>-->
+    </string-array>
+
+    arrcontent
+    <string-array name="arrcontent">
+        <item>"剪切"</item>
+        <item>"编辑"</item>
+    </string-array>
+
+</resources>

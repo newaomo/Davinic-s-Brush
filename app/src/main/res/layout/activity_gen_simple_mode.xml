@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:typer="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+
+        <ImageView
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/select_size_tip2"
+            />
+
+        <FrameLayout
+            android:layout_marginTop="25dp"
+            android:paddingLeft="30dp"
+            android:layout_marginLeft="53px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="请语音输入"
+                    android:textColor="#838f9396"
+                    android:textSize="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:text="  关键内容"
+                    android:textColor="#f60025"
+                    android:textSize="35dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_simple_text"
+        android:layout_gravity="center"
+        android:text=""
+        android:background="@drawable/button_simple_text_result"
+        android:textSize="50px"
+        android:textColor="#f60025"
+        android:layout_marginTop="120px"
+        android:layout_width="900px"
+        android:layout_height="800px" />
+
+    <Button
+        android:id="@+id/button_simple_speak"
+        android:layout_gravity="center"
+        android:layout_marginTop="120px"
+        android:text="点击说话"
+        android:background="@drawable/button_select_size_edit"
+        android:textSize="50px"
+        android:textColor="#ffffff"
+        android:layout_width="600px"
+        android:layout_height="150px" />
+
+    <Button
+        android:id="@+id/button_simple_next"
+        android:layout_gravity="center"
+        android:text="下 一 步"
+        android:background="@drawable/button_select_size_edit"
+        android:textSize="50px"
+        android:layout_marginTop="60px"
+        android:textColor="#ffffff"
+        android:layout_width="600px"
+        android:layout_height="150px"  />
+
+
+</LinearLayout>

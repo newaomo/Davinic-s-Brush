@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.moxun.tagcloudlib.view.TagCloudView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fragment_tagcloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:autoScrollMode="uniform"
+        app:darkColor="#FF0000"
+        app:lightColor="#00FF00"
+        app:radiusPercent="0.6"/>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/main_fragment2_button_news"
+        android:layout_marginTop="20px"
+        android:layout_margin="40dp"
+        app:cardBackgroundColor="#66CDAA"
+        android:layout_width="match_parent"
+        android:layout_height="240px"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        android:foreground = "?attr/selectableItemBackground"
+        app:elevation="1dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="查 看 新 闻"
+                android:textSize="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

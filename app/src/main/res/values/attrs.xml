@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="MaterialHome">
+        <attr name="publishInfoBackground" format="reference|color" />
+        <attr name="searchIconColor" format="reference|color" />
+        <attr name="discoverSearchBg" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_widths" format="dimension" />
+        <attr name="border_colors" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="VerticalTabLayout">
+        <attr name="tabIndicatorColor" format="color" />
+        <attr name="tabIndicatorWidth" format="dimension" />
+        <attr name="tabIndicatorCorners" format="dimension" />
+        <attr name="tabIndicatorGravity" format="enum">
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+            <enum name="fill" value="119" />
+        </attr>
+        <attr name="dividerHeight" format="dimension" />
+        <attr name="dividerPadding" format="dimension" />
+        <attr name="dividerColor" format="color" />
+        <attr name="tabArrowColor" format="color" />
+        <attr name="tabArrowGravity" format="enum">
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+        <attr name="tabArrowType" format="enum">
+            <enum name="inner" value="1" />
+            <enum name="outer" value="2" />
+        </attr>
+        <attr name="tabHeight" format="dimension" />
+        <attr name="tabTextColor" format="color" />
+        <attr name="tabSelectedTextColor" format="color" />
+        <attr name="tabTextAppearance" format="reference" />
+        <attr name="tabTextSize" format="dimension" />s
+        <attr name="tabPadding" format="dimension" />
+        <attr name="tabPaddingLeft" format="dimension" />
+        <attr name="tabPaddingRight" format="dimension" />
+        <attr name="tabPaddingTop" format="dimension" />
+        <attr name="tabPaddingBottom" format="dimension" />
+        <attr name="tabIconPadding" format="dimension" />
+        <attr name="tabViewGravity" format="enum">
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+            <enum name="center" value="17" />
+            <enum name="center_vertical" value="16" />
+            <enum name="center_horizontal" value="1" />
+            <enum name="bottom" value="80" />
+            <enum name="top" value="48" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TabItem">
+        <attr name="text" format="string" />
+        <attr name="iconGravity" format="enum">
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+            <enum name="bottom" value="80" />
+            <enum name="top" value="48" />
+        </attr>
+        <attr name="icon" format="reference" />
+        <attr name="iconWidth" format="dimension" />
+        <attr name="iconHeight" format="dimension" />
+    </declare-styleable>
+
+    <!--仿知乎相关 -->
+    <declare-styleable name="FabTagLayout">
+        <attr name="tagText" format="string" />
+    </declare-styleable>
+
+    <attr name="animationMode">
+        <enum name="fade" value="0"/>
+        <enum name="scale" value="1"/>
+        <enum name="bounce" value="2"/>
+    </attr>
+
+    <attr name="position">
+        <enum name="left_bottom" value="0"/>
+        <enum name="right_bottom" value="1"/>
+    </attr>
+
+    <declare-styleable name="MultiFloatingActionButton">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="switchFabIcon" format="reference"/>
+        <attr name="switchFabColor" format="color"/>
+        <attr name="animationDuration" format="integer"/>
+        <attr name="animationMode"/>
+        <attr name="position"/>
+    </declare-styleable>
+
+
+
+
+    <attr name="main_bg" format="reference|color"/>
+    <attr name="main_textcolor" format="reference|color"/>
+    <attr name="second_bg" format="reference|color"/>
+    <attr name="second_textcolor" format="reference|color"/>
+
+    <!--圆形的图片-->
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="roundWidth" format="dimension"/>
+        <attr name="roundHeight" format="dimension"/>
+    </declare-styleable>
+
+    <!--一种自动输入的EditText-->
+    <declare-styleable name="MaterialTextField">
+        <attr name="mtf_cardCollapsedHeight" format="dimension"/>
+        <attr name="mtf_labelColor" format="color"/>
+        <attr name="mtf_image" format="reference"/>
+        <attr name="mtf_hasFocus" format="boolean"/>
+        <attr name="mtf_animationDuration" format="integer"/>
+        <attr name="mtf_openKeyboardOnFocus" format="boolean"/>
+        <attr name="mtf_backgroundColor" format="color"/>
+    </declare-styleable>
+
+    <!--自动输入-->
+    <declare-styleable name="TyperEditText">
+        <attr name="touchable" format="boolean"/>
+        <attr name="characterWriteInterval" format="integer"/>
+        <attr name="punctuationWriteInterval" format="integer"/>
+    </declare-styleable>
+
+    <!--文字的气泡效果-->
+    <declare-styleable name="BubbleLayout">
+        <attr name="bl_arrowWidth" format="dimension|reference" />
+        <attr name="bl_cornersRadius" format="dimension|reference" />
+        <attr name="bl_arrowHeight" format="dimension|reference" />
+        <attr name="bl_arrowPosition" format="dimension|reference" />
+        <attr name="bl_bubbleColor" format="color|reference" />
+        <attr name="bl_strokeWidth" format="dimension|reference" />
+        <attr name="bl_strokeColor" format="color|reference" />
+
+        <attr name="bl_arrowDirection" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="top" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="left_center" value="4"/>
+            <enum name="right_center" value="5"/>
+            <enum name="top_center" value="6"/>
+            <enum name="bottom_center" value="7"/>
+        </attr>
+    </declare-styleable>
+
+    //个人设置界面
+    <declare-styleable name="LSettingView">
+        <attr name="leftText" format="string"/>
+        <attr name="leftIcon" format="integer"/>
+        <attr name="rightIcon" format="integer"/>
+        <attr name="LtextSize" format="float"/>
+        <attr name="LtextColor" format="color"/>
+        <attr name="isShowUnderLine" format="boolean"/>
+        <attr name="leftIconSize" format="dimension"/>
+        <attr name="leftTextMarginLeft" format="dimension"/>
+        <attr name="rightStyle" format="enum">
+            <enum name="iconShow" value="0"/>
+            <enum name="iconHide" value="1"/>
+            <enum name="iconCheck" value="2"/>
+            <enum name="iconSwitch" value="3"/>
+        </attr>
+        <attr name="isShowRightText" format="boolean"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextSize" format="float"/>
+        <attr name="rightTextColor" format="color"/>
+    </declare-styleable>
+
+    <!-- 自定义验证码输入框-->
+    <declare-styleable name="VerificationCodeView">
+        <!--输入框的数量-->
+        <attr name="icv_et_number" format="integer" />
+        <!--输入框的宽度-->
+        <attr name="icv_et_width" format="dimension|reference" />
+        <!--输入框之间的分割线-->
+        <attr name="icv_et_divider_drawable" format="reference" />
+        <!--输入框文字颜色-->
+        <attr name="icv_et_text_color" format="color|reference" />
+        <!--输入框文字大小-->
+        <attr name="icv_et_text_size" format="dimension|reference" />
+        <!--输入框获取焦点时边框-->
+        <attr name="icv_et_bg_focus" format="reference" />
+        <!--输入框没有焦点时边框-->
+        <attr name="icv_et_bg_normal" format="reference" />
+    </declare-styleable>
+
+    <!-- 侧滑效果 -->
+    <declare-styleable name="SwipeMenu">
+        <!--动画的代码-->
+        <attr name="sm_type" format="integer"/>
+        <!--滑出菜单的范围-->
+        <attr name="sm_dragoffset" format="dimension"/>
+        <!--滑出菜单距边界的值-->
+        <attr name="sm_menuoffset" format="dimension"/>
+        <!--滑动开始的缩放值-->
+        <attr name="sm_startscale" format="float"/>
+        <!--滑动开始的alpha值-->
+        <attr name="sm_startalpha" format="float"/>
+        <!--滑动开始的3D旋转角度-->
+        <attr name="sm_start3dangle" format="integer"/>
+        <!--全局颜色-->
+        <attr name="sm_fullcolor" format="color"/>
+        <!--全局背景-->
+        <attr name="sm_fullimage" format="reference"/>
+        <!--以下方法只在设置全局图片背景时候有用-->
+        <!--标题栏颜色-->
+        <attr name="sm_statucolor" format="color"/>
+        <!--全局背景的模糊度-->
+        <attr name="sm_fullimageblur" format="float"/>
+    </declare-styleable>
+
+    <!-- 实现分步骤-->
+    <declare-styleable name="StepperIndicator" tools:ignore="ResourceName">
+        <attr name="stpi_stepCount" format="integer"/>
+        <attr name="stpi_animDuration" format="integer"/>
+
+        <attr name="stpi_circleColor" format="color"/>
+        <attr name="stpi_circleRadius" format="dimension"/>
+        <attr name="stpi_circleStrokeWidth" format="dimension"/>
+
+        <attr name="stpi_indicatorColor" format="color"/>
+        <attr name="stpi_indicatorRadius" format="dimension"/>
+
+        <attr name="stpi_lineColor" format="color"/>
+        <attr name="stpi_lineDoneColor" format="color"/>
+        <attr name="stpi_lineStrokeWidth" format="dimension"/>
+        <attr name="stpi_lineMargin" format="dimension"/>
+
+        <attr name="stpi_showDoneIcon" format="boolean"/>
+        <attr name="stpi_showStepNumberInstead" format="boolean"/>
+        <attr name="stpi_doneIconDrawable" format="reference"/>
+
+        <attr name="stpi_useBottomIndicator" format="boolean"/>
+        <attr name="stpi_useBottomIndicatorWithStepColors" format="boolean"/>
+        <attr name="stpi_bottomIndicatorHeight" format="dimension"/>
+        <attr name="stpi_bottomIndicatorWidth" format="dimension"/>
+        <attr name="stpi_bottomIndicatorMarginTop" format="dimension"/>
+
+        <attr name="stpi_stepsCircleColors" format="reference"/>
+        <attr name="stpi_stepsIndicatorColors" format="reference"/>
+
+        <attr name="stpi_labels" format="reference"/>
+        <attr name="stpi_showLabels" format="boolean"/>
+        <attr name="stpi_labelMarginTop" format="dimension"/>
+        <attr name="stpi_labelSize" format="dimension"/>
+        <attr name="stpi_labelColor" format="color"/>
+    </declare-styleable>
+
+</resources>

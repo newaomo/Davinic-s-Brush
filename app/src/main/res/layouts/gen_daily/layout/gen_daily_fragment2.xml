@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:typer="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#d3171617"
+        android:layout_height="200px">
+
+
+        <FrameLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:paddingTop="50px"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="请选择您要生成的"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <TextView
+                    android:text="  尺 寸"
+                    android:textColor="#f60025"
+                    android:textSize="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#f2f0f0"
+        android:layout_marginTop="30px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+
+        <View
+            android:layout_gravity="center"
+            android:layout_marginLeft="15px"
+            android:background="#f33030"
+            android:layout_width="10px"
+            android:layout_height="71px"/>
+
+        <TextView
+            android:layout_marginLeft="25px"
+            android:layout_gravity="center"
+            android:textColor="#f60025"
+            android:textSize="50px"
+            android:text="默 认 尺 寸"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:paddingTop="60px"
+        android:id="@+id/daily_linear_1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/daily_linear_1_size"
+            android:orientation="vertical"
+            android:layout_width="400px"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center|right"
+                android:src="@drawable/picture12001920"
+                android:layout_width="281.25px"
+                android:layout_height="450px" />
+
+            <TextView
+                android:id="@+id/daily_button_select_size_1"
+                android:layout_marginLeft="60px"
+                android:layout_gravity="center"
+                android:layout_marginTop="40px"
+                android:layout_width="253.125px"
+                android:textSize="50px"
+                android:text="1080×1920"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/daily_linear_2_size"
+            android:orientation="vertical"
+            android:layout_width="400px"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/picture_01_01_03_04_06"
+                android:layout_width="253.125px"
+                android:layout_height="450px" />
+
+            <TextView
+                android:id="@+id/daily_button_select_size_2"
+                android:layout_gravity="center"
+                android:layout_marginTop="40px"
+                android:layout_width="253.125px"
+                android:textSize="50px"
+                android:text="1080×1920"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/daily_linear_3_size"
+            android:orientation="vertical"
+            android:layout_width="400px"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center|left"
+                android:src="@drawable/picture_1201280"
+                android:layout_width="253.125px"
+                android:layout_height="450px" />
+
+            <TextView
+                android:layout_marginTop="40px"
+                android:layout_width="253.125px"
+                android:textSize="50px"
+                android:layout_marginLeft="15px"
+                android:id="@+id/daily_button_select_size_3"
+                android:layout_gravity="center|left"
+                android:text="720×1280"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#f2f0f0"
+        android:layout_marginTop="40px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+
+        <View
+            android:layout_gravity="center"
+            android:layout_marginLeft="15px"
+            android:background="#f33030"
+            android:layout_width="10px"
+            android:layout_height="71px"/>
+
+        <TextView
+            android:layout_marginLeft="25px"
+            android:layout_gravity="center"
+            android:textColor="#f60025"
+            android:textSize="50px"
+            android:text="手 动 输 入 尺 寸"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/daily_button_select_linear"
+        android:layout_marginTop="35dp"
+        android:paddingBottom="95px"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/daily_button_select_size_edit"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="手 动 输 入"
+            android:background="@drawable/button_select_size"
+            android:textSize="65px"
+            android:layout_width="400px"
+            android:layout_height="150px" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="35px"
+        android:visibility="gone"
+        android:id="@+id/daily_size_edit_liner"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="280px">
+
+        <LinearLayout
+            android:layout_marginLeft="150px"
+            android:orientation="vertical"
+            android:layout_width="300px"
+            android:layout_height="250px">
+
+            <ImageView
+                android:layout_width="74px"
+                android:layout_height="70px"
+                android:layout_gravity="center"
+                android:src="@drawable/select_size_width"/>
+
+            <EditText
+                android:id="@+id/daily_edittext_size_width"
+                android:layout_marginTop="30px"
+                android:layout_width="300px"
+                android:layout_height="150px"
+                android:layout_gravity="center"
+                android:background="@drawable/edittext_size"
+                android:gravity="center"
+                android:hint=""
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="×"
+            android:layout_marginLeft="122.5px"
+            android:gravity="center"
+            android:textColor="#f60025"
+            android:textSize="55px"
+            android:layout_marginTop="147px"
+            android:layout_width="55px"
+            android:layout_height="56px" />
+
+        <LinearLayout
+            android:layout_marginLeft="122.5px"
+            android:orientation="vertical"
+            android:layout_width="300px"
+            android:layout_height="250px">
+
+            <ImageView
+                android:layout_width="74px"
+                android:layout_height="70px"
+                android:layout_gravity="center"
+                android:src="@drawable/select_size_height"/>
+
+            <EditText
+                android:id="@+id/daily_edittext_size_height"
+                android:layout_marginTop="30px"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint=""
+                android:background="@drawable/edittext_size"
+                android:layout_width="300px"
+                android:layout_height="150px" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="100px"
+        android:gravity="center"
+        android:id="@+id/daily_button_daily_next2"
+        android:layout_gravity="center"
+        android:text="下 一 步"
+        android:background="@drawable/button_select_size_edit"
+        android:textSize="60px"
+        android:textColor="#ffffff"
+        android:layout_width="600px"
+        android:layout_height="120px" />
+
+</LinearLayout>

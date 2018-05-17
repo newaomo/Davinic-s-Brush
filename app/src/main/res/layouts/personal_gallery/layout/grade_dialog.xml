@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="300dp"
+    android:layout_height="200dp">
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="海 报 评 分"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.turing.newaomo.davinsbrush.view.grade.RatingBar
+        android:id="@+id/ratingbar_grade"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        app:starCount="5"
+        app:starEmpty="@drawable/star_empty"
+        app:starFill="@drawable/star_full"
+        app:starHalf="@drawable/star_half"
+        app:starImageSize="40dp"
+        app:starPadding="15dp"
+        app:starStep="5.0"
+        app:stepSize="Half"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/button_grade_sure"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="确定"
+            android:background="@drawable/button_grade_sure"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/button_grade_cancel"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="取消"
+            android:background="@drawable/button_grade_cancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

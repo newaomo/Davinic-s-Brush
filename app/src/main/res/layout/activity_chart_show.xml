@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.other.ChartShowActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:background="#f60025"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_marginLeft="24px"
+            android:id="@+id/main_btn_menu"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:src="@mipmap/menu" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="各种海报模式使用情况"
+        android:textColor="#000000"
+        android:paddingTop="50px"
+        android:textSize="50px"
+        android:paddingLeft="200px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_marginTop="100px"
+        android:id="@+id/see_average_speed_chart"
+        android:layout_width="match_parent"
+        android:layout_height="600px" />
+
+    <TextView
+        android:text="个人图库占比"
+        android:textColor="#000000"
+        android:paddingTop="50px"
+        android:textSize="50px"
+        android:paddingLeft="200px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_marginTop="100px"
+        android:id="@+id/see_average_speed_chart2"
+        android:layout_width="match_parent"
+        android:layout_height="600px" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="title_margin">24dp</dimen>
+
+    <dimen name="pie_chart_text1_size">42sp</dimen>
+    <dimen name="pie_chart_text2_size">16dp</dimen>
+
+    <!--EditText-->
+    <dimen name="mtf_cardHeight_initial">4dp</dimen>
+    <dimen name="mtf_cardHeight_final">55dp</dimen>
+    <dimen name="mtf_corner_radius">4dp</dimen>
+
+    <dimen name="stpi_default_circle_radius">10dp</dimen>
+    <dimen name="stpi_default_circle_stroke_width">4dp</dimen>
+    <dimen name="stpi_default_indicator_radius">4dp</dimen>
+    <dimen name="stpi_default_line_stroke_width">2dp</dimen>
+    <dimen name="stpi_default_line_margin">5dp</dimen>
+
+    <dimen name="stpi_default_text_size">12sp</dimen>
+
+    <dimen name="stpi_default_bottom_indicator_height">3dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_width">50dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_margin_top">10dp</dimen>
+
+    <dimen name="stpi_default_label_size">12sp</dimen>
+    <dimen name="stpi_default_label_margin_top">2dp</dimen>
+
+    <dimen name="stpi_two_dp">2dp</dimen>
+    <dimen name="stpi_done_icon_size">18dp</dimen>
+
+</resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="40px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150px">
+
+
+        <ImageView
+            android:layout_marginLeft="70px"
+            android:layout_gravity="center_vertical"
+            android:layout_width="77px"
+            android:layout_height="100px"
+            android:src="@drawable/select_size_tip2"
+            />
+
+        <FrameLayout
+            android:layout_marginLeft="53px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="800px"
+                android:layout_height="150px"
+                android:src="@drawable/select_content_edit"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="150px">
+
+        <TextView
+            android:paddingLeft="100px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="75px"
+            android:textColor="#f60025"
+            android:text="名字"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:layout_marginLeft="50px"
+            android:id="@+id/profile_edit_name"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="请输入您的名字"
+            android:textSize="60px"
+            android:background="@drawable/edittext_size"
+            android:layout_width="800px"
+            android:layout_height="150px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px">
+
+        <TextView
+            android:paddingLeft="100px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="75px"
+            android:textColor="#f60025"
+            android:text="荣誉"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/profile_edit_honor"
+            android:layout_marginLeft="50px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="请输入您的荣誉"
+            android:textSize="60px"
+            android:background="@drawable/edittext_size"
+            android:layout_width="800px"
+            android:layout_height="150px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px">
+
+        <TextView
+            android:paddingLeft="20px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="75px"
+            android:textColor="#f60025"
+            android:text="个人简介"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/profile_edit_introduce"
+            android:layout_marginLeft="50px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="请输入您的个人简介"
+            android:textSize="60px"
+            android:background="@drawable/edittext_size"
+            android:layout_width="800px"
+            android:layout_height="150px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px">
+
+        <TextView
+            android:paddingLeft="60px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="75px"
+            android:textColor="#f60025"
+            android:text="座右铭"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/profile_edit_motto"
+            android:layout_marginLeft="50px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="请输入您的座右铭"
+            android:textSize="60px"
+            android:background="@drawable/edittext_size"
+            android:layout_width="800px"
+            android:layout_height="150px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="150px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/profile_textview_last6"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="60px"
+            android:textSize="45px"
+            android:textColor="#f60025"
+            android:text="＜上一步"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="center"
+            android:id="@+id/button_profile_next6"
+            android:layout_gravity="center"
+            android:text="下 一 步"
+            android:background="@drawable/button_select_size_edit"
+            android:textSize="60px"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="82.5px"
+            android:layout_width="600px"
+            android:layout_height="150px" />
+
+        <TextView
+            android:id="@+id/profile_textview_skip6"
+            android:layout_marginLeft="82.5px"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="45px"
+            android:textColor="#f60025"
+            android:text="跳过＞"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:showIn="@layout/gen_by_profile_fragment7"
+    >
+
+    <cn.finalteam.galleryfinal.widget.HorizontalListView
+        android:id="@+id/list_custom_select_profile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:fadingEdge="none"
+        android:horizontalSpacing="2dp"
+        android:numColumns="3"
+        android:verticalSpacing="2dp"
+        />
+</LinearLayout>
