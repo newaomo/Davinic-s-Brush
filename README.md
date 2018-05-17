@@ -15,12 +15,6 @@ Davinic's Brush
 ## Introduction
 Davinci’s brush是一款基于深度学习技术的海报生产及图像设计协作平台。
 
-截图
---------------
-<img width="25%" height="25%" src="https://note.youdao.com/yws/public/resource/a3bcf3f0737f6e53baf0e81ec7a4d793/xmlnote/73151585623D4354ADC04BD42348CCA4/208"/>
-<img width="35%" eight="30%"
-src="https://note.youdao.com/yws/public/resource/a3bcf3f0737f6e53baf0e81ec7a4d793/xmlnote/22152A302AAC4AB1A7F4A5FC1EA7E28E/210"/>
-<img width="35%" height="50%" src="https://note.youdao.com/yws/public/resource/a3bcf3f0737f6e53baf0e81ec7a4d793/xmlnote/A716D76535EE46C68923F8B1A96A6FCC/212"/>
 
 * * *
 
